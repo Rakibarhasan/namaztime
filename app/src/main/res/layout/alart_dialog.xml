@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="308dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#191"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="308dp"
+        android:layout_height="69dp"
+        android:background="#99141414"
+        android:gravity="center"
+        android:text="সুরা আল ফাতিহা "
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="@+id/textView26"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toTopOf="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="277dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="বাংলা উচ্চারণ :বিসমিল্লাহির রহমানির রাহিম। আল-হামদু লিল্লাহি রাব্বিল আলামিন। আর রাহমানির রাহিম। মালিকি ইয়াওমিদ্দিন। ই্য়াকানাবুদু ওয়া ইয়্যাকা নাসতাইন। ইহ্ দিনাস সিরাতাল মুস্তাকীম। সিরাতাল লাযিনা আনআমতা আলাইহিম। গাইরিল মাগদুবি আলাইহিম ওয়ালাদ দুয়ালিন।"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="@+id/textView26"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView100" />
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="283dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="অর্থ : পরম করুণাময় ও অসীম দয়ালু আল্লাহর নামে শুরু করছি। সমস্ত প্রশংসা বিশ্বজগতের প্রতিপালক আল্লাহরই, যিনি পরম করুণাময়, পরম দয়াময় যিনি বিচার দিনের মালিক। আমরা একমাত্র তোমারই এবাদত করি এবং শুধুমাত্র তোমারই সাহায্য প্রার্থনা করি। আমাদেরকে সরল পথ দেখাও, সে সমস্ত লোকের পথ, যাদেরকে তুমি নেয়ামত দান করেছ। তাদের পথ নয়, যাদের প্রতি তোমার গজব নাযিল হয়েছে এবং যারা পথভ্রষ্ট হয়েছে।"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="@+id/textView26"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView103" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="113dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView100"
+        app:layout_constraintEnd_toEndOf="@+id/textView100"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="@+id/textView100"
+        app:layout_constraintTop_toTopOf="@+id/textView100"
+        app:srcCompat="@drawable/logos" />
+</android.support.constraint.ConstraintLayout>
